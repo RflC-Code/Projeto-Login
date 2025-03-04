@@ -28,24 +28,24 @@
         font-size: 1em;
     }
 
-    form > input[type="submit"] {
+    form > d > input[type="submit"] {
         background-color: #a0b3b9;
         color: black;
         text-shadow: 0.5px 0px 0px #303638;
     }
 
-    form > input[type="submit"]:hover {
+    form > d > input[type="submit"]:hover {
         background-color: #dde4eb;
         color: black;
         text-shadow: 1px 0px 0px #69767a;
     }
 
-    form > a.botão {
+    form > d > a.botão {
         color: black;
         text-shadow: 0.5px 0px 0px darkred;
     }
     
-    form > a.botão:hover {
+    form > d > a.botão:hover {
         background-color: #dde4eba0;
         color: black;
         text-shadow: 1px 0px 0px #375f6d;
@@ -80,27 +80,35 @@
         font-size: 1.2em;
     }
 
-    form > input[type="submit"] {
+    form > div > input[type="submit"] {
+        display: inline;
         background-color: #4d8599;
         
         color: black;
         text-shadow: 0.5px 0px 0px #213a43;
     }
 
-    form > input[type="submit"]:hover {
+    form > div > input[type="submit"]:hover {
         background-color: #4d8599af;
         color: black;
         text-shadow: 1px 0px 0px #375f6d;
     }
 
-    form > a.botão {
+    form > div > a.botão {
+        display: inline;
         color: black;
         text-shadow: 0.5px 0px 0px darkred;
     }
     
-    form > a.botão:hover {
+    form > div > a.botão:hover {
         background-color: #4d85994c;
         color: black;
         text-shadow: 1px 0px 0px #375f6d;
+    }
+
+    div.concluido {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
     }
 }
